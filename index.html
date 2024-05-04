@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./LogIn.css" rel="stylesheet">
+    <link href="./assets/icons/shop`s logo-filled.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="height: 100vh;">
+
+    <main style="height: inherit;transition: all 0.5s ease;">
+
+        <div style="transition: all 0.5s ease;" class="container"><img src="./assets/icons/shop`s logo.png"
+                class="icon">
+            <div class="container2" style="transition: all 0.5s ease;">
+                <table style="transition: all 0.5s ease;">
+                    <tr>
+                        <td id="LogIn-td"><button id="login-button" onclick="switchWindow('login')">Log In</button>
+                        </td>
+                        <td>
+                            <hr style="width: 0px;height: 20px;margin: 0px 10px ;">
+                        </td>
+                        <td id="SignIn-td"><button id="signin-button" onclick="switchWindow('signin')">Sign In</button>
+                        </td>
+                    </tr>
+                </table>
+                <form class="form">
+                    <label for="username-input">Username</label>
+                    <input name="Username" type="text" id="username-input-login" placeholder="Enter your username"
+                        required autofocus>
+                    <label for="password-input">Password</label>
+                    <input name="Password" type="password" id="password-input-login" placeholder="Enter your password"
+                        required>
+                    <div class="submit-div">
+                        <a href="#" id="forgot-password-link">Forgot Password?</a>
+                        <input type="submit" value="Log In" id="LogIn-submit" onclick="submitForm()">
+                    </div>
+                </form>
+                <form class="form" style="display: none;">
+                    <label>Choose a Username :</label>
+                    <input name="Username" type="text" id="username-input-signin" placeholder="Enter a Username"
+                        required>
+                    <label>How Old Are You? : </label>
+                    <input name="Age" type="number" id="age-input" placeholder="Enter Your age" required>
+                    <label>Secure Your account :</label>
+                    <input name="Password" type="password" id="password-input-signin" placeholder="Enter a Password"
+                        required>
+                    <p id="para" style="margin-top: 0px;font-size: x-small;">*at least, 8 characters</p>
+
+                    <input type="submit" value="Sign In" id="SignIn-submit" onclick="submitForm()">
+
+                </form>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <script src="./login.js"></script>
+</body>
+
+</html>

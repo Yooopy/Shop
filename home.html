@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./home.css" rel="stylesheet">
+    <link href="./assets/icons/shop`s logo-filled.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header style="z-index: 1000;;position: sticky;top: 0px">
+        <div class="header">
+            <img src="./assets/images/cart.png">
+            <input type="text" maxlength="40das" placeholder="Search Something...">
+            <img src="./assets/images/account.png">
+        </div>
+    </header>
+    <main>
+        <article class="article-slider">
+            <div class="slider">
+
+                <div class="slider-show fade"><img class="slider-img" src="./assets/images/covers1.png"></div>
+                <div class="slider-show fade"><img class="slider-img" src="./assets/images/covers2.png"></div>
+                <div class="slider-show fade"><img class="slider-img" src="./assets/images/covers3.png"></div>
+                <div class="slider-show fade"><img class="slider-img" src="./assets/images/covers4.png"></div>
+
+                <a class="prev" onclick="plusSides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSides(1)">&#10095;</a>
+
+            </div>
+        </article>
+        <div class="nav-butts">
+            <button id="left">&#10094</button>
+            <button id="right">&#10095</button>
+            <article class="sales">
+
+                <div><img class="sale-img" src="./assets/images/sale.png">
+                    <p style="font-weight: bolder;padding-left: 16px;">Sales are Here!</p>
+                </div>
+                <div class="sale">
+
+                    <div class="sale-inside" style="border-radius: 28px 0px 0px 28px;"><img
+                            src="./assets/images/41513f36ca8ed31b603737010b4a109c646f7f76_1707811518.webp">
+
+                        <div class="sale-div">
+                            <p>Honor v18</p>
+
+                            <p class="percnt">29&percnt;</p>
+                        </div>
+                        <div class="sale-div">
+                            <p class="underline">399.99&dollar;</p>
+                            <p class="main-cost">299.99&dollar;</p>
+                        </div>
+
+                    </div>
+                    <div class="sale-inside"><img
+                            src="./assets/images/51ca4d6108835c0632fcae34d1f05a76081b8106_1707719127.webp">
+
+                        <div class="sale-div">
+                            <p>Readmi Note 13 </p>
+
+                            <p class="percnt">29&percnt;</p>
+                        </div>
+                        <div class="sale-div">
+                            <p class="underline">259.99&dollar;</p>
+                            <p class="main-cost">209.99&dollar;</p>
+                        </div>
+                    </div>
+                    <div class="sale-inside"><img
+                            src="./assets/images/5489090c0867cbec4291453f9b2518674185a905_1683467204.webp">
+
+                        <div class="sale-div">
+                            <p>Motorola Moto e</p>
+
+                            <p class="percnt">29&percnt;</p>
+                        </div>
+                        <div class="sale-div">
+                            <p class="underline">189.99&dollar;</p>
+                            <p class="main-cost">159.99&dollar;</p>
+                        </div>
+                    </div>
+                    <div class="sale-inside"><img
+                            src="./assets/images/828582ac449436b9427afee8139a66c4c94b8ea0_1705927283.webp">
+                        <div class="sale-div">
+                            <p>Poco M6 pro</p>
+
+                            <p class="percnt">29&percnt;</p>
+                        </div>
+                        <div class="sale-div">
+                            <p class="underline">149.99&dollar;</p>
+                            <p class="main-cost">99.99&dollar;</p>
+                        </div>
+                    </div>
+                    <div class="sale-inside"><img
+                            src="./assets/images/85d560cd41bc49cf418025e2b812ff0d030b9b62_1676358350.webp">
+                        <div class="sale-div">
+                            <p>Readmi 12 Lite</p>
+                            <p class="percnt">29&percnt;</p>
+                        </div>
+                        <div class="sale-div">
+                            <p class="underline">159.99&dollar;</p>
+                            <p class="main-cost">109.99&dollar;</p>
+                        </div>
+                    </div>
+                    <div class="sale-inside"><img
+                            src="./assets/images/a8234e915f4f6ed119daac830e39eca031d62c2d_1705751969.webp">
+
+                        <div class="sale-div">
+                            <p>Samsung Galaxy Note 22s</p>
+                            <p class="percnt">29&percnt;</p>
+                        </div>
+                        <div class="sale-div">
+                            <p class="underline">499.99&dollar;</p>
+                            <p class="main-cost">459.99&dollar;</p>
+                        </div>
+                    </div>
+                    <div class="sale-inside"><img
+                            src="./assets/images/b3fc8709835b119e98cf5b9147fe9f8c38934db5_1710170751.webp">
+
+                        <div class="sale-div">
+                            <p>Realme Note 50</p>
+                            <p class="percnt">29&percnt;</p>
+                        </div>
+                        <div class="sale-div">
+                            <p class="underline">399.99&dollar;</p>
+                            <p class="main-cost">349.99&dollar;</p>
+                        </div>
+                    </div>
+                    <div class="sale-inside"><img
+                            src="./assets/images/bd7648d55ffe49a0596ac3668f4db41f7c790f6a_1696760508.webp">
+
+                        <div class="sale-div">
+                            <p>Galaxy S22 FE</p>
+                            <p class="percnt">29&percnt;</p>
+                        </div>
+                        <div class="sale-div">
+                            <p class="underline">599.99&dollar;</p>
+                            <p class="main-cost">519.99&dollar;</p>
+                        </div>
+                    </div>
+                    <div class="sale-inside"><img
+                            src="./assets/images/ec9a962187e1f82cc47e7a148ef99ec1c6fd024d_1656423336.webp">
+
+                        <div class="sale-div">
+                            <p>IPhone 15 pro Max</p>
+                            <p class="percnt">29&percnt;</p>
+                        </div>
+                        <div class="sale-div">
+                            <p class="underline">699.99&dollar;</p>
+                            <p class="main-cost">569.99&dollar;</p>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
+        </div>
+        <div class="see-all">
+            <p>See All</p>
+            <i style="font-size: 25px;color: #A700FF;" class="fi fi-rr-apps"></i>
+        </div>
+
+
+        <article>
+            <div class="accessories">
+                <table class="acc-table">
+                    <tr>
+                        <th id="th" colspan="3">May You Want Some accessories</th>
+                    </tr>
+                    <tr class="acc-tr">
+                        <td class="acc-td">
+                            <div class="acc" style="background-image: url('./assets/images/principal_2000.jpg');">
+                                <p>Headphone</p>
+                            </div>
+                        </td>
+                        <td class="acc-td">
+                            <div class="acc"
+                                style="background-image: url('./assets/images/0016233_-handsfree-bluetooth-anker-soundcore-r-50i-a3949_360.jpeg');">
+                                <p>Handsfree</p>
+                            </div>
+                        </td>
+                        <td class="acc-td">
+                            <div class="acc" style="background-image: url('./assets/images/MQKJ3.jpg');">
+                                <p>Cable</p>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr class="acc-tr">
+                        <td class="acc-td">
+                            <div class="acc" style="background-image: url('./assets/images/new-product-500x500.webp');">
+                                <p>Adaptor</p>
+                            </div>
+                        </td>
+                        <td class="acc-td">
+                            <div class="acc"
+                                style="background-image: url('./assets/images/take-risk-or-lose-chance-printed-mobile-case-aesthetic-phone-original-imagfgt4bgvscujg.webp')">
+                                <p>Cover</p>
+                            </div>
+                        </td>
+                        <td class="acc-td">
+                            <div class="acc"
+                                style="background-image: url('./assets/images/mobile-tempered-glass.jpg');">
+                                <p>Glass</p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </article>
+
+
+
+
+
+
+
+
+
+        <article class="article-brands">
+            <table class="logos-table">
+                <tr class="tr">
+                    <td class="td">
+                        <div><img src="./assets/images/xiaomi.png"></div>
+                    </td>
+                    <td class="td">
+                        <div><img src="./assets/images/apple (1).png"></div>
+                    </td>
+                    <td class="td">
+                        <div><img src="./assets/images/nokia.png"></div>
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td class="td">
+                        <div><img src="./assets/images/samsung.png"></div>
+                    </td>
+                    <td class="td">
+                        <div><img src="./assets/images/huawei (1).png"></div>
+                    </td>
+                    <td class="td">
+                        <div><img src="./assets/images/google.png"></div>
+                    </td>
+            </table>
+        </article>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <i style="font-size: 50px;color: white;" class="fi fi-sr-messages-question"></i>
+            <p>Do You Have Problem?</p>
+            <p>Let us know and sure we can help you!</p>
+            <button>Call Us</button>
+        </div>
+    </footer>
+    <script src="./home.js"></script>
+
+</body>
+
+</html>
